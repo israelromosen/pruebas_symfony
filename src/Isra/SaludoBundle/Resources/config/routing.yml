@@ -1,0 +1,3 @@
+isra_saludo_homepage:
+    pattern:  /hola/{name}
+    defaults: { _controller: IsraSaludoBundle:Saludo:index }
